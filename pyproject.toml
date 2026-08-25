@@ -9,7 +9,7 @@ description = "Read-only MCP server for real-time moomoo/Futu market data"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-dependencies = ["futu-api>=9.0", "mcp>=1.2"]
+dependencies = ["futu-api>=9.0", "mcp>=1.2,<2"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
